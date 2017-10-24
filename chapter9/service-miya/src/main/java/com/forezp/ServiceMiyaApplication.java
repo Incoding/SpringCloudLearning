@@ -11,6 +11,10 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * curl  http://localhost:8988/hi dependences  show
+ * curl  http://localhost:8989/miya  dependences don't show
+ */
 @SpringBootApplication
 @RestController
 public class ServiceMiyaApplication {
